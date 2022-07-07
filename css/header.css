@@ -1,0 +1,18 @@
+@charset "utf-8";
+header{
+    display: inline-block;
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+h1{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header>ul>li{
+    float: left;
+}
